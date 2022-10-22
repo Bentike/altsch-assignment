@@ -1,8 +1,14 @@
+import { Link, Outlet } from "react-router-dom";
+
 const Home = () => {
     return(
-         <div>
-             <h1>Home Page</h1>
-         </div>
+         <>
+             <nav>
+                <Link to='/'>Home</Link>
+                <Link to='users'>Users</Link>
+             </nav>
+             <Outlet/>
+         </>
     )
 }
 
