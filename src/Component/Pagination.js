@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './Styles/Pagination.css';
 
 const Pagination = ({ data, RenderComponent, title, pageLimit, dataLimit }) => {
