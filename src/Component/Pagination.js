@@ -33,7 +33,7 @@ const Pagination = ({ data, RenderComponent, title, pageLimit, dataLimit }) => {
     useEffect(() => {
         window.scrollTo({ behavior: 'smooth', top: '0px' });
     }, [currentPage]);
-  
+
     return (
         <div>
             <h1>{title}</h1>
