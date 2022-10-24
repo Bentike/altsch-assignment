@@ -16,9 +16,9 @@ const Users = () => {
 
     
     return(
-        <div>
+        <div className="users">
         {users.length > 0 ? (
-          <>
+          <div>
             <Pagination
               data={users}
               RenderComponent={UserCard}
@@ -26,7 +26,7 @@ const Users = () => {
               pageLimit={5}
               dataLimit={10}
             />
-          </>
+          </div>
         ) : (
          <h1>Loading...</h1>
         )}
