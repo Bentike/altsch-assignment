@@ -1,6 +1,7 @@
 import './Styles/UserCard.css';
 
-const UserCard = ({gender, email, phone}) => {
+const UserCard = (props) => {
+    const {gender, email, phone} = props.data;
     return(
         <div className="card">
             <p className="cardcontent">{gender}</p>
