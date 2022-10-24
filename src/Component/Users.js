@@ -7,17 +7,23 @@ const Users = () => {
 
     useEffect(() => {
         setIsLoading(true);
-        fetch("https://randomuser.me/api/?results=5000")
+        fetch("https://randomuser.me/api/?results=100")
           .then(response => response.json())
-          .then(data => console.log(data.results));
+          .then(data => {
+             console.log(data.results);
+             setUsers(data.results);
+          });
           setIsLoading(false);
         }, []);
 
+    
     return(
         <div>
             <h1>Users Page</h1>
-            {isLoading ? "Loading..." : <UserCard/>}
-            {/* {<UserCard/>} */}
+            {users.map((user, i) => {
+                let {phone, gender, email} = user;
+                return <UserCard key={i} phone={phone} gender={gender} email={email}/>
+            })}
         </div>
     )
 }
