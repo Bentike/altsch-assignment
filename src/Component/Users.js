@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Pagination from "./Pagination";
 import UserCard from "./UserCard";
+import './Styles/Users.css';
 
 const Users = () => {
     const [users, setUsers] = useState([]);
