@@ -19,3 +19,15 @@ nav{
 .home_div{
     margin-left: 100px;
 }
+
+.homeText{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+span{
+    margin: 0 3px;
+}

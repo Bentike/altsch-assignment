@@ -10,9 +10,9 @@ const Home = () => {
              </nav>
              <div className="home_div">
                  <h1 className="heading">Welcome to Users Search App</h1>
-                 <p className="homeText">Navigate to 
-                     <Link to='users'>users</Link> 
-                    to view active users
+                 <p className="homeText">Navigate to  
+                      <Link to='users'><span>users</span></Link> 
+                     to view active users
                  </p>
              </div>
              <Outlet/>
