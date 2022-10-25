@@ -25,6 +25,11 @@
     height: 80px;
     padding: 15px;
     border-radius: 50px;
+    transition: all ease-in-out .2s;
+}
+
+.card img:hover{
+    transform: scale(1.2);
 }
 
 .username{
