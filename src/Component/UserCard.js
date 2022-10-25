@@ -8,9 +8,9 @@ const UserCard = (props) => {
         <div className="card">
             <img src={large} alt="user"/>
             <p className='username'>{title} {first} {last}</p>
-            <p className="cardcontent">{gender}</p>
-            <p className="cardcontent">{email}</p>
-            <p className="cardcontent">{phone}</p>
+            <p className="cardContent">{gender}</p>
+            <p className="cardContent">{email}</p>
+            <p className="cardContent">{phone}</p>
         </div>
     );
 }

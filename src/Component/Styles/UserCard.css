@@ -27,3 +27,8 @@
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.cardContent{
+    font-size: 15px;
+    font-weight: 600;
+}
