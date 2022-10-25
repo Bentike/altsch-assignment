@@ -7,7 +7,7 @@ const UserCard = (props) => {
     return(
         <div className="card">
             <img src={large} alt="user"/>
-            <p>{title} {first} {last}</p>
+            <p className='username'>{title} {first} {last}</p>
             <p className="cardcontent">{gender}</p>
             <p className="cardcontent">{email}</p>
             <p className="cardcontent">{phone}</p>

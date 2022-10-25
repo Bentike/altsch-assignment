@@ -13,7 +13,6 @@
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    width: 100%;
 }
 
 .card img{
@@ -21,4 +20,10 @@
     height: 80px;
     padding: 15px;
     border-radius: 50px;
+}
+
+.username{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
