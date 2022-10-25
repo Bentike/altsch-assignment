@@ -8,7 +8,7 @@ const Home = () => {
                 <Link to='/' className="link">Home</Link>
                 <Link to='users' className="link">Users</Link>
              </nav>
-             <div>
+             <div className="home_div">
                  <h1 className="heading">Welcome to Users Search App</h1>
                  <p className="homeText">Navigate to 
                      <Link to='users'>users</Link> 
