@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Pagination from "./Pagination";
 import UserCard from "./UserCard";
 import './Styles/Users.css';
+import Spinner from "./Spinner";
 
 const Users = () => {
     const [users, setUsers] = useState([]);
@@ -28,7 +29,7 @@ const Users = () => {
             />
           </div>
         ) : (
-         <img className="spinner" src="https://regalwhisky.com/images/loader.gif"/>
+         <Spinner/>
         )}
       </div>
     )
