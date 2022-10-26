@@ -28,7 +28,7 @@ const Users = () => {
             />
           </div>
         ) : (
-         <h1>Loading...</h1>
+         <img className="spinner" src="https://awagro.by/img/text/preloader.gif"/>
         )}
       </div>
     )
