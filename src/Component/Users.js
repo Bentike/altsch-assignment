@@ -28,7 +28,7 @@ const Users = () => {
             />
           </div>
         ) : (
-         <img className="spinner" src="https://awagro.by/img/text/preloader.gif"/>
+         <img className="spinner" src="https://regalwhisky.com/images/loader.gif"/>
         )}
       </div>
     )
