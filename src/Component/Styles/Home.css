@@ -9,6 +9,7 @@
 
 .link:hover{
     text-decoration: underline;
+    color: rgb(125, 49, 62);
 }
 
 nav{
